@@ -1,0 +1,90 @@
+body {
+  background-color: #e5edf0;
+  font-family: "Monserrat", sans-serif;
+}
+
+.container {
+  width: 60%;
+  min-width: 600px;
+  background-color: #fff;
+  border-radius: 35px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.form-element #search-input {
+  width: 75%;
+  padding: 10px;
+  background-color: #f2f6fd;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-element #city-search {
+  background-color: #7dd9de;
+  width: 20%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  transition: ease-in-out 200ms;
+  border: 2px solid #7dd9de;
+}
+
+.form-element #city-search:hover {
+  background-color: white;
+  color: #7dd9de;
+  border: 2px solid #7dd9de;
+}
+
+h1 {
+  font-family: "Baloo Paaji 2", sans-serif;
+  font-size: 55px;
+  margin: 50px 0 0 0;
+  color: rgb(44, 44, 44);
+  line-height: 20px;
+  text-align: center;
+}
+
+.current-weather {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(87, 87, 87);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.current-weather-left {
+  padding: 20px;
+  line-height: 30px;
+}
+
+.emphasis {
+  color: #fadc68;
+  font-weight: 700;
+}
+
+.current-weather-right {
+  font-size: 90px;
+  padding: 0px;
+  margin: 0px 0 0 0px;
+}
+
+.credits {
+  margin: 30px 0 0 0;
+  font-family: "monserrat", sans-serif;
+  color: rgb(151, 151, 151);
+  font-size: 16px;
+}
+
+.credits a {
+  color: #efb6ed;
+  text-decoration: none;
+  font-weight: 600;
+  transition: ease-in-out 200ms;
+}
+
+.credits a:hover {
+  color: rgb(87, 87, 87);
+}

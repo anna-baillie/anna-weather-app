@@ -3,9 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Anna's Weather App</title>
   </head>
   <body>
-    Hello world
+    <main>
+      <div class="container">
+        <header>
+          <form id="search-form">
+            <div class="form-element">
+              <input
+                type="text"
+                name="city"
+                id="search-input"
+                class="search-input"
+                required
+              />
+              <input
+                type="submit"
+                value="Search"
+                id="city-search"
+                class="city-search"
+              />
+            </div>
+          </form>
+        </header>
+        <h1 class="current-city" id="current-city">Nottingham</h1>
+        <div class="current-weather">
+          <div class="current-weather-left">
+            <span id="current-date"></span>,
+            <span id="weather-description">scattered clouds</span>
+            <br />
+            Humidity: <span class="emphasis" id="humidity">74%</span>, Wind:
+            <span class="emphasis" id="wind-speed">6.17km/h</span>
+          </div>
+          <p class="current-weather-right">
+            <span id="icon" class="weather-icon"
+              ><img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+            /></span>
+            <span
+              class="current-temperature-value"
+              id="current-temperature-value"
+              >12°</span
+            >
+          </p>
+        </div>
+        <footer class="credits">
+          <small
+            >This project was coded by
+            <a href="https://github.com/anna-baillie" target="_blank"
+              >Anna Baillie</a
+            >
+            and is
+            <a href="https://github.com/" target="_blank"
+              >open-sourced on GitHub</a
+            >
+            and
+            <a href="https://www.netlify.com/" target="_blank"
+              >hosted on Netlify</a
+            ></small
+          >
+        </footer>
+      </div>
+    </main>
   </body>
+  <script src="src/java.js"></script>
 </html>
