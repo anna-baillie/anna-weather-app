@@ -4,8 +4,7 @@ body {
 }
 
 .container {
-  width: 60%;
-  min-width: 600px;
+  width: 600px;
   background-color: #fff;
   border-radius: 35px;
   margin: 40px auto;
@@ -66,9 +65,12 @@ h1 {
 }
 
 .current-weather-right {
-  font-size: 90px;
+  font-size: 110px;
   padding: 0px;
-  margin: 0px 0 0 0px;
+  font-family: "Baloo Paaji 2", sans-serif;
+  margin: -10px 0 0 0px;
+  font-weight: bold;
+  line-height: 80px;
 }
 
 .weather-forecast {
@@ -77,8 +79,9 @@ h1 {
   padding: 3px;
   display: flex;
   justify-content: space-between;
-  font-family: "Monserrat", sans-serif;
-  font-size: 18px;
+  font-family: "Baloo Paaji 2", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   color: rgb(87, 87, 87);
 }
 
