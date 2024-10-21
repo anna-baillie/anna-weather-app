@@ -71,6 +71,35 @@ h1 {
   margin: 0px 0 0 0px;
 }
 
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Monserrat", sans-serif;
+  font-size: 18px;
+  color: rgb(87, 87, 87);
+}
+
+.weather-forecast-icon {
+  font-size: 48px;
+}
+
+.weather-forecast-temps {
+  display: flex;
+  justify-content: center;
+  color: #fadc68aa;
+}
+
+.weather-forecast-temp {
+  padding: 8px;
+}
+
+.weather-forecast-temp strong {
+  color: #fadd68;
+}
+
 .credits {
   margin: 30px 0 0 0;
   font-family: "monserrat", sans-serif;
