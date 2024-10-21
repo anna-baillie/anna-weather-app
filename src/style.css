@@ -83,7 +83,9 @@ h1 {
 }
 
 .weather-forecast-icon {
-  font-size: 48px;
+  width: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temps {
